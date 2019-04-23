@@ -1,0 +1,29 @@
+/* #bottom-container #border{
+	right: 0;
+	background: #fff;
+    margin-top: 91px !important;
+}
+
+#bottom-container #border p{
+	color: #333;	
+}
+
+#bottom-container #border h1 {
+	color: #333;
+	text-shadow: none;
+}
+
+#bottom-container #border h2 {
+    text-shadow: none;
+    color: #000000;
+}
+
+*/
+
+#bottom-container #border a{
+    color: #FED400;
+}
+
+#footer{
+	margin-top: 0px;
+}

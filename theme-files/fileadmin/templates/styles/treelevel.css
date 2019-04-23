@@ -1,0 +1,12 @@
+#main-container div#sub-nav ul li.act a {
+	border-right:8px solid #AAAAAA!important;
+}
+
+#main-container div#sub-nav ul#ts_sub-nav ul li.act a {
+	border-right:8px solid #FED400;
+}
+
+/* IE fix */
+#main-container div#sub-nav ul#ts_sub-nav ul li a {
+	border-right:none!important;
+}

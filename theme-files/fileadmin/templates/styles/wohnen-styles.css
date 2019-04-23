@@ -1,0 +1,111 @@
+#header{
+	background: #ffffff;
+	height: 125px;
+	position: relative;	
+}
+
+.gfx{
+	/*background: #7fcb27 url(../images/header.png) no-repeat !important;*/
+	background: #FFFFFF;
+	/*background: #7fcb27 url(../images/header-bars.png) 0 0 no-repeat !important;*/
+}
+
+
+.logo-de, .logo-fr, .logo-it, .logo-en{
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	height: 80px;
+	width: 600px;
+}
+
+
+.logo-de{
+	background: url(../images/MIWO_Logo.png) no-repeat left top;
+	background-image: url(../images/MIWO_Logo.svg), none;
+	
+}
+
+.logo-fr{
+	background: url(../images/MOHA_Logo.png) no-repeat left top;
+	background-image: url(../images/MOHA_Logo.svg), none;
+	
+}
+
+#footer #address #address-right {
+	float: left;
+	width: 200px;
+}
+
+#footer #address #address-left {
+	float: left;
+	width: 141px;
+}
+#top-container{
+	background: url(../images/home-wohnen.png) no-repeat;
+	height: 260px;
+	padding-bottom: 1px;
+}
+
+#news .news-item{
+	border-left: #7fcb27 10px solid;
+}
+#main-container{
+	/*
+	border-top: #7fcb27 10px solid;
+	*/
+}
+
+#sub-nav ul li.act a{
+	border-right: 8px solid #7fcb27;
+}
+#content h1{
+	border-bottom:1px solid #7fcb27;
+	border-left:20px solid #7fcb27;
+}
+
+#border{
+	float: left;
+	width: 175px;
+	margin-top: 190px;
+	padding-top: 31px;
+	padding-left: 5px;
+	border-top: #7fcb27 10px solid;	
+}
+.home-template #border a {
+    color: #7fcb27;
+    display: inline;
+}
+
+#border a{
+color: #7fcb27;
+}
+
+
+#footer a.mail {
+	color:#7fcb27!important;
+}
+hr.gelb {
+	color:#7fcb27;
+	background-color:#7fcb27;
+	border-color:#7fcb27;
+}
+ul.browsebox li a {
+	color:#7fcb27;
+}
+a{
+	text-decoration: none;
+	color: #7fcb27;
+}
+
+#content ul {
+	list-style-image: url('../images/miwo-icon.svg');
+	
+}
+
+body,p,#content ul,#border p {
+	font-family: arial, verdana, sans-serif;
+	color: #555555;
+	font-size: 12px;
+}
+

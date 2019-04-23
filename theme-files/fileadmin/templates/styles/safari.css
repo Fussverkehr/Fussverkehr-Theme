@@ -1,0 +1,52 @@
+#service-nav ul {
+      margin-left: 5px !important;
+}
+
+#service-nav ul li.service-nav-search {
+    margin-top: -5px;
+}
+
+#service-nav ul li.service-nav-search #tx-indexedsearch-searchbox-sword {
+    margin-left: 0px !important;
+    width: 119px !important;
+}
+
+#service-nav ul li.service-nav-search #search-button {
+    margin-left: 0px !important;
+    height: 17px !important;
+}
+
+#main-nav ul {
+    margin-top: 1px !important;
+}
+
+#main-nav ul li a {
+    line-height: 26px !important;
+}
+
+#home-template #content {
+    padding-top: 11px !important;
+}
+
+.news-latest-item {
+    padding-bottom: 2px !important;
+}
+
+.csc-default object {
+    margin-left: 5px;
+}
+
+.tx-x4etachoshop-pi1 label {
+    line-height: 23px;
+}
+
+.tx_x4etachoshop_form label,
+.tx_x4etachoshop_form input {
+    margin-bottom: 4px !important;
+}
+
+#tx_x4etachoshop_pi1-bemerkungen {
+    left: 0px !important;
+    position: relative !important;
+    width: 182px !important;
+}

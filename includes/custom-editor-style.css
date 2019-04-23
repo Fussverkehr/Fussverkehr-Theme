@@ -1,0 +1,8 @@
+blockquote, blockquote p{
+	clear: both;
+}
+
+h1,h2,h3,h4{
+	clear: both;
+}
+img.doc-thumb{width:80px;height:auto;clear:both}

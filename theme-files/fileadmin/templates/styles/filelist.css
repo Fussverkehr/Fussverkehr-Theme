@@ -1,0 +1,25 @@
+td.csc-uploads-fileName {
+	padding:0px;
+	margin:0px;
+}
+
+td.csc-uploads-icon {
+	padding:0px;
+	margin:0px;
+}
+
+td.csc-uploads-icon img {
+	padding:0px;
+	margin:0px;
+	border:none!important;
+}
+
+.filelinks div {
+	border-bottom:1px dotted #999999;
+	padding-bottom:3px;
+}
+
+h2 {
+	padding:0px!important;
+	margin:0px;
+}
