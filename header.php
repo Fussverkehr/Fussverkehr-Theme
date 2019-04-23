@@ -10,7 +10,6 @@ if (!defined('ABSPATH'))
 <!DOCTYPE html>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
-
         <meta charset="<?php bloginfo('charset'); ?>" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="google-site-verification" content="falBJDR8wiyqPApztkZZvc3yL77BjX0zjaJRTzwZ35I" />
@@ -19,9 +18,8 @@ if (!defined('ABSPATH'))
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/theme-files/fileadmin/templates/styles/styles.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/theme-files/home/print.css" media="print"/>
-        <?php wp_enqueue_style('gconverter-style', get_stylesheet_uri(), false, '1.7.5'); 
-        wp_enqueue_script(‘jquery’);?>
-		<?php wp_head(); ?>
+        <?php wp_enqueue_style('gconverter-style', get_stylesheet_uri(), false, '1.7.5'); ?>
+        <?php wp_head(); ?>
         <?php gconverter_local_css(); ?>
 
         
@@ -29,8 +27,6 @@ if (!defined('ABSPATH'))
         <script src="<?php echo get_template_directory_uri(); ?>/theme-files/home/prototype.js" type="text/javascript"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/theme-files/home/javascript_0b12553063.txt" type="text/javascript"></script>-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0"/>
-        
-        
        
 
     </head>
@@ -40,9 +36,9 @@ if (!defined('ABSPATH'))
 
         <div id="service-nav">
         
-                               <?php get_search_form(); 
+                               <?php get_search_form(); ?>
 
-                
+                <?php
                 $top_menu_args = array(
                     'theme_location' => 'top-menu',
                 );
