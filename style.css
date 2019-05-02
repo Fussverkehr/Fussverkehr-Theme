@@ -2,7 +2,7 @@
 Theme Name: fussverkehr
 Theme URI: https://github.com/Fussverkehr/Fussverkehr-Theme
 Author: Fussverkehr Schweiz
-Version: 1.1
+Version: 1.1.1
 GitHub Theme URI: https://github.com/Fussverkehr/Fussverkehr-Theme
 GitHub Branch:     master
 */
@@ -492,7 +492,6 @@ top: 0px;
 	display: block;
 	position: sticky;
 	position: -webkit-sticky;
-	top: 27px;
 	background-color: white;
 }
 
