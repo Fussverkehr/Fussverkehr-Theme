@@ -221,6 +221,9 @@ address .gps, span.event_category {
 .event_single .eventpost-date-export {
 	padding-top: 7px
 }
+span.eventpost-date-export {
+	font-size: 1.5em;
+}
 
 .event_past address, .event_future address, .event_single address {
 	clear: both;
@@ -291,6 +294,11 @@ color: #555 !important;
 }
 .event_date{
 	float: left;
+	font-size: 1.1em;
+}
+
+.event_location span {
+	line-height: 1.3;
 }
 
 #border .time-start::before {
@@ -303,7 +311,7 @@ color: #555 !important;
 }
 
 
-.eventpost-date-export, time {
+time {
 	font-size: 1.1em;
 }
 
