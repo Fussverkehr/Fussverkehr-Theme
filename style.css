@@ -1,3 +1,8 @@
+/* @override 
+	https://fussverkehr.ch/wordpress/wp-content/cache/autoptimize/css/autoptimize_9f4f8f62aaf04b7244a5dd58ca726efa.css */
+
+
+
 /*
 Theme Name: fussverkehr
 Theme URI: https://github.com/Fussverkehr/Fussverkehr-Theme
@@ -199,15 +204,15 @@ img.doc-thumb {
 	clear: both;
 	display: inline-box;
 	min-height: 25px;
-	width: 94% !important;
 }
 
-.event_date .event_data, .event_single .event_date {
+.event_date {
 	float: left;
 	width: 75%;
-	padding-top: 5px;
-	padding-bottom: 7px;
+	line-height: 1.3;
 }
+
+
 
 address .gps, span.event_category {
 	display: none
@@ -274,13 +279,11 @@ color: #555 !important;
 	height: 390px;
 }
 
-.event_data{
-font-size: 1em !important;
-}
+
 .event_data a.gps{
 	font-size: 0 !important;
 }
-.widget_eventpost_list .event_data .event_date {width: 75%;float: left;
+.widget_eventpost_list .event_data .event_date {width: 65%;float: left;
 	
 }
 .event_data{
@@ -290,10 +293,24 @@ font-size: 1em !important;
 	float: left;
 }
 
-span.dashicons-location{display:none;}.wc-tabs-wrapper,a.event_link.gcal,a.event_link.vcs,span.sku_wrapper,td.product-thumbnail,th.product-thumbnail,a.event_link.vcs{display:none}.event_item h5{font-size: 1.2em!important;
-	margin:0;padding:0}.event_location{float:left}.dashicons-calendar:before{float:right}#bottom-container #border .event_data{line-height:1.2em;color:#fff;font-weight:700}
+#border .time-start::before {
+	content: ": ";
+	padding-right: 20%;
+}
+
+.date-end::before, .time-end::before {
+	content: "- ";
+}
+
+
+.eventpost-date-export, time {
+	font-size: 1.1em;
+}
+
+span.dashicons-location{display:none;}.wc-tabs-wrapper,a.event_link.gcal,a.event_link.vcs,span.sku_wrapper,td.product-thumbnail,th.product-thumbnail,a.event_link.vcs{display:none}.event_item h5{font-size: 1.3em!important;
+	margin:0;padding:0}.event_location{float:left}.dashicons-calendar:before{float:right}#bottom-container #border .event_data{color:#fff;font-weight:700}
 	
-.eventpost-children-text-more{
+.linking_word, .eventpost-children-text-more{
 	display: none;
 }	
 
