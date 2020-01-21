@@ -18,4 +18,6 @@
 			padding-inline-start: 0;
 		}ul.products h2 {
 			padding-top: 0px;
+		}ul.products li {
+			margin-bottom: 10px;
 		}
