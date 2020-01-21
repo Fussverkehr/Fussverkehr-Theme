@@ -23,8 +23,8 @@
 			margin-bottom: 10px !important;
 		}
 		.projekte-nav ul.menu li {
-			margin-top: 10px;
+			padding-top: 10px;
 		}
 		.projekte-nav ul.menu li ul.sub-menu li {
-			margin-top: 0px;
+			padding-top: 0px;
 		}
