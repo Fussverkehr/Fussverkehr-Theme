@@ -34,5 +34,5 @@
 		}
 		
 		.eventpost-status, .gcal, .vcs {
-			display: none;
+			display: none!important;
 		}
