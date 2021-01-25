@@ -879,7 +879,8 @@ div.smalladform-field-radio fieldset#mailformMitglied label {
 }
 
 .mf-input, fieldset.csc-mailform select {
-	margin-bottom: 0!important
+	margin-bottom: 0!important;
+	width: 100%;
 }
 
 span.wpcf7-not-valid-tip {
@@ -1562,7 +1563,8 @@ blockquote {
 }
 
 .mf-submit {
-	padding: 5px!important
+	padding: 5px!important;
+	margin-left: 37%;
 }
 
 span.wpcf7-list-item {
