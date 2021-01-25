@@ -727,7 +727,6 @@ fieldset.csc-mailform {
 fieldset.csc-mailform label {
 	text-align: left;
 	margin-right: 10px;
-	position: absolute
 }
 
 div.csc-mailform-field input {
@@ -872,9 +871,7 @@ div.smalladform-wrap div.smalladform-field-radio fieldset#mailformMitglied input
 }
 
 .csc-mailform input.wpcf7-text, .mf-input, .mf-text, .wpcf7-radio, fieldset.csc-mailform select {
-	width: 63%;
 	margin-top: -3px;
-	margin-left: 37%
 }
 
 div.smalladform-field-radio fieldset#mailformMitglied label {
@@ -1534,6 +1531,10 @@ blockquote, span.wpcf7-not-valid-tip {
 	font-size: 15px!important
 }
 
+.wpcf7-form-control-wrap {
+	width: 63%!important;
+}
+
 input.prod-count {
 	width: 70px
 }
@@ -1565,8 +1566,7 @@ blockquote {
 }
 
 span.wpcf7-list-item {
-	width: 69%;
-	margin-left: 32%!important;
+	margin-left: 37%!important;
 	display: block!important
 }
 
