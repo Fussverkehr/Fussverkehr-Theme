@@ -83,7 +83,7 @@ flush_rewrite_rules( $hard );
                $pdf_id = get_post( $thumb_id )->post_parent;
                if ( $pdf_id && get_post_mime_type ( $pdf_id ) === 'application/pdf' ){
                  $pdf = get_post($pdf_id);
-                 echo '<a class="link-to-pdf" href="'.wp_get_attachment_url($pdf_id).'" title="'.esc_html($pdf->post_title).'" target="_blank">'.get_the_post_thumbnail($_post->ID, 'thumbnail').'</a>'."\n";
+                 echo '<a class="link-to-pdf" href="'.wp_get_attachment_url($pdf_id).'" title="'.esc_html($pdf->post_title).'" target="_blank">'.get_the_post_thumbnail($_post->ID, 'sidebar').'</a>'."\n";
                } ?>
                 <h2>
                     <span class="news-list-date"><?php the_time('m.Y'); ?></span>
