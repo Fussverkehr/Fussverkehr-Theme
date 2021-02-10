@@ -727,6 +727,7 @@ fieldset.csc-mailform {
 fieldset.csc-mailform label {
 	text-align: left;
 	margin-right: 10px;
+	width: 40%;
 }
 
 div.csc-mailform-field input {
