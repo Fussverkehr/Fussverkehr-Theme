@@ -1066,8 +1066,7 @@ th {
 
 .publi-list-item article {
 	display: block;
-	marging-left: 160px
-}
+	margin-left: 160px}
 
 .publi-list-item h2 {
 	margin-bottom: 7px
@@ -1077,9 +1076,6 @@ th {
 	display: inline-block
 }
 
-.publi-list-item article {
-	margin-left: 18%
-}
 
 img.attachment-shop_catalog {
 	float: left;
