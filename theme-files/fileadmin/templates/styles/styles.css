@@ -1065,7 +1065,8 @@ th {
 }
 
 .publi-list-item article {
-	display: block
+	display: block;
+	marging-left: 160px
 }
 
 .publi-list-item h2 {
