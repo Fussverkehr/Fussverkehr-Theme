@@ -1533,6 +1533,10 @@ blockquote, span.wpcf7-not-valid-tip {
 	width: 63%!important;
 }
 
+.cf7-google-map-container {
+	width: 100% !important;
+}
+
 input.prod-count {
 	width: 70px
 }
