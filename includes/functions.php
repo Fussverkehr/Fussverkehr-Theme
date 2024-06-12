@@ -95,8 +95,9 @@ function my_custom_sizes( $sizes ) {
 
 add_filter( 'image_size_names_choose', 'my_custom_sizes' );
 
-add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 100;' ), 20 );
-
+add_filter('loop_shop_per_page', function($cols) {
+    return 100;
+}, 20);
 
 
 
