@@ -4,20 +4,40 @@ if (!defined('ABSPATH'))
     exit;
 
 /**
- * Pages Template
-   Template Name: Projekte
- 
- *
- * @link           http://codex.wordpress.org/Theme_Development#Pages_.28page.php.29
+ * Template Name:  Webninar
  */
 ?>
-<?php get_header(); ?>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
 
-<div id="sub-nav" role="tooltip">
-    <?php get_sidebar('left'); ?>
-</div>
+        <meta charset="<?php bloginfo('charset'); ?>" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="google-site-verification" content="falBJDR8wiyqPApztkZZvc3yL77BjX0zjaJRTzwZ35I" />
+        <title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/theme-files/fileadmin/templates/styles/styles.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/theme-files/home/print.css" media="print"/>
+        <?php wp_enqueue_style('gconverter-style', get_stylesheet_uri(), false, '1.7.5'); 
+        wp_enqueue_script(‘jquery’);?>
+		<?php wp_head(); ?>
+        <?php gconverter_local_css(); ?>
 
-<div id="content">
+        
+       <!-- <script src="<?php echo get_template_directory_uri(); ?>/theme-files/home/ga.js" async="" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/theme-files/home/prototype.js" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/theme-files/home/javascript_0b12553063.txt" type="text/javascript"></script>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0"/>
+        
+        
+       
+
+    </head>
+	    <body>
+        <div id="wrapper">
+
+
+<div id="content" style="width: 90%!important;">
 
     <?php if (have_posts()) : ?>
 
@@ -28,11 +48,7 @@ if (!defined('ABSPATH'))
                 <?php endif; ?>
                 
                 <div class="post-entry">
-                    <?php the_content(__('Read more &#8250;', 'gconverter'));?>
-				<div class="projekte-nav"><?php  wp_nav_menu(array('theme_location' => 'sitemap'));?></div>
-                    <?php get_encryptx_meta($post->ID, 'right_sidebar', true);
-                    echo apply_filters('the_content', get_encryptx_meta($post->ID,'right_sidebar', true));
-                     
+                    <?php the_content(__('Read more &#8250;', 'gconverter'));
                     $kat_anzeigen = get_post_meta($post->ID, 'Kategorie', true);
                     	$kat_ID = $kat_anzeigen[0]->cat_ID;
                     	
@@ -106,9 +122,9 @@ if (!defined('ABSPATH'))
     <?php endif; ?>  
 
 </div><!-- end of #content -->
-<div id="border">
-        <?php echo get_post_custom_values("right_sidebar", get_the_id())[0]; ?>
-    <?php get_sidebar('right'); ?>
-</div>
+
 <div class="clear"></div>
-<?php get_footer(); ?>
+</div><!-- end of wrapper -->
+<?php wp_footer(); ?>
+</body>
+</html>

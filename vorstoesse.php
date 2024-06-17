@@ -106,11 +106,10 @@ if ( !defined('ABSPATH')) exit;
 
     </div><!-- end of #content -->
     <div id='border' class='level-3'>
-        <?php $shortcode = get_encryptx_meta($post->ID, 'right_sidebar', true);
+        <?php $shortcode = get_post_meta($post->ID, 'right_sidebar', true);
         echo do_shortcode($shortcode);
          ?>
-    <?php get_sidebar('right'); ?>
-    </div>
+    <?php get_sidebar('right'); ?></div>
     <div style='clear: both;'></div>
 </div>    
 <?php get_footer(); ?>

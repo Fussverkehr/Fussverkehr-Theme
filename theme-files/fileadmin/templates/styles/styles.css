@@ -1570,7 +1570,8 @@ blockquote {
 
 span.wpcf7-list-item {
 	margin-left: 37%!important;
-	display: block!important
+	display: block!important;
+	margin: 1em 0 0 1em;
 }
 
 span.wpcf7-list-item-label {

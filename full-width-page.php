@@ -41,8 +41,9 @@ if (!defined('ABSPATH'))
 
 </div><!-- end of #content -->
 <div id="border">
-        <?php echo get_post_custom_values("right_sidebar", get_the_id())[0]; ?>
-
+        <?php $shortcode = get_post_meta($post->ID, 'right_sidebar', true);
+        echo do_shortcode($shortcode);
+         ?>
     <?php get_sidebar('right'); ?>
 </div>
 <div class="clear"></div>

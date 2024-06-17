@@ -11,7 +11,7 @@ if (!defined('ABSPATH'))
 ?>
 <?php get_header(); ?>
 
-<div id="sub-nav" role="tooltip">
+<div id="sub-nav">
     <?php get_sidebar('left'); ?>
 </div>
 
@@ -101,10 +101,10 @@ if (!defined('ABSPATH'))
 
 </div><!-- end of #content -->
 <div id="border">
-		<?php get_encryptx_meta($post->ID, 'right_sidebar', true);
-		echo apply_filters('the_content', get_encryptx_meta($post->ID,'right_sidebar', true));
+        <?php $shortcode = get_post_meta($post->ID, 'right_sidebar', true);
+        echo do_shortcode($shortcode);
          ?>
     <?php get_sidebar('right'); ?>
 </div>
 <div class="clear"></div>
-<?php get_footer(); ?>
+<?php get_footer(); ?>et_footer(); ?>
